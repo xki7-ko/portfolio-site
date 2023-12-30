@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* 共通部分
+―――――――――――――――――――――――――――――――――*/
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Yu Gothic Medium","游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #724012;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* Header */
+header {
+    height: 109px;    
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.page-header {    
+    display: flex;
+    justify-content: center;    
+}
+
+h1 {
+    font-family: "Yu Mincho";
+    font-weight: bold;
+    margin-top: 35px;
+    margin-right: 30%;
+}
+
+h1 a {
+    color: #FF7A00;
+}
+
+h1 a:hover {
+    color: #FFD2A9;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 26px;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-left: 67px;
+}
+
+.main-nav a {
+    color: #724012;
+}
+
+.main-nav a:hover {
+    color: #FF7A00;
+}
+
+/* 全背景 */
+.big-bg {
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: 109px;
+    background-position: center top;
+}
+
+/*  button */
+.button {
+    font-size: 36px;
+    font-weight: bold;
+    background: #FFB36D;
+    color: #724012;
+    border-radius: 10px;
+    border: solid 1px #724012;
+    padding: 8px 17px;
+    box-shadow: 2px 4px 4px #95673C;
+}
+
+.button:hover {
+    background: #FFD2A9;
+}
+
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 4px;
+}
+
+/* 背景-top,work */
+#home {
+    background-image: url(../images/bg-big.jpg);    
+}
+/* 背景-profile,contact */
+#home2 {
+    background-image: url(../images/bg2-big.jpg);
+}
+
+/* top */
+.logo {
+    margin-top: 15%;
+}
+
+.home-content p {
+    font-size: 26px;
+    margin: 10px 0 140px;
+}
+
+/* Plofile */
+.home-content2 {    
+    padding-top: 94px;
+}
+
+h2 {
+    font-family: "Yu Mincho";
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 3%; 
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    font-family: "Yu Gothic";
+    text-align: left;
+}
+
+.bg-box {
+    height: 305px;
+    width: 305px;
+    margin-right: 15px;
+    margin-bottom: 87px;
+    padding: 12px 38px 30px 38px;
+    border-radius: 10%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.box-title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.discription {
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+/* Work */
+.gallery {   
+    width: 260px;
+    height: 153px;
+    object-fit: cover;
+}
+
+/* Contact */
+.contact-form div {
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form div {
+    padding-bottom: 27px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;    
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+}
+
+textarea {
+    height: 125px;
+}
+
