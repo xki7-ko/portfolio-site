@@ -193,6 +193,10 @@ textarea {
     max-width: 350px;
 }
 
+textarea {
+    height: 125px;
+}
+
 /* mobile */
 @media (max-width: 800px) {
     /* header */    
@@ -225,14 +229,14 @@ textarea {
         margin-bottom: 10px;
         padding: 12px 38px 30px 38px;
     }
-    
+
     /* button */
     .button {       
         margin-bottom: 30px;
     }
-}
 
-textarea {
-    height: 125px;
+    /* contact-form */
+    iframe {
+        width: 500px;
+    }
 }
-
